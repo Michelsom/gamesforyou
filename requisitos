@@ -36,3 +36,19 @@ esse email, pois nele tem as pessoas que podem auxiliar na resposta da
 sua dúvida (estaremos disponíveis durante o final de semana também).
 
 Lembre-se de responder a todos no email.
+
+
+const [cart, setCart] = useState<game[]>([])
+
+
+import codinfiniteImg from "../assets/cod-infinite-warfare.png"
+import codwwiiImg from "../assets/cod-wwii.png"
+import fifaImg from "../assets/fifa-18.png"
+import horizonImg from "../assets/horizon-zero-dawn.png"
+import mortalkombat from "../assets/mk-xl.png"
+import shardsODImg from "../assets/shards-of-darkness.png"
+import odyImg from "../assets/sm-ody.png"
+import shadowofmordorImg from "../assets/som.png"
+import thewither from "../assets/twwh.png"
+import CartImg from "../assets/cart-icon.svg"
+import { useState } from "react";
