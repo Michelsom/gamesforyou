@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
 :root {
-    --background: #f0f2f5;
+    --background: #4F4F4F;
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
-    background: transparent;
+    background:#4F4F4F;
     -webkit-font-smoothing: antialiased;
 }
 body, input, textarea, button{

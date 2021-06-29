@@ -1,104 +1,78 @@
 import styled from 'styled-components';
 
-export const Caixa = styled.div`
-background: #282828;
-display: grid;
-gap: 1rem;
-padding: 1rem 1rem;
-width: 81.3rem;
-grid-template-columns: repeat(4, 1fr);
-
-
-section{
-padding: 0 2rem;
-display: flex;
-flex-direction: column;
-width: 15rem;
-background: white;
-border-radius: 2px;
-}
-
-img{
-        width: 16rem;
-        height: 16rem;
-        margin-bottom: 20px;
-        margin-top: 2px;
-    }
-`;
-export const SubCaixa = styled.div` 
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
+export const Container = styled.div`
+   background: transparent;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 1rem 6rem;
+   display: grid ;
+   grid-template-columns: repeat(4, 1fr);
 `;
 
-
-export const Text = styled.h1`
-    font-size:20px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    margin-top: 1px;
-
-
-
+export const Box = styled.section`
+   align-items: center;
+   display:flex ;
+   width: 13.5rem;
+   height: 12.5rem;
+   padding: 0 0.62rem;
+   flex-direction: column;
+   margin-right: 2.8rem;
+   margin-left:2.8rem;
+   margin-bottom: 3rem;
+   background: #96A6B7;
+   border-radius:0.5rem .5rem 0.5rem 0.5rem;
 
 `;
 
-export const TextBox = styled.div`
-height: 3rem;
-background: transparent;
-`;
-
-//button// 
-
-export const Vent = styled.div`
-width:19rem ;
-display: flex ;
-flex-direction: column;
+export const ImageBox = styled.img`
 align-items: center;
-background: #282828; 
- margin-top: 4rem;
+width: 13.5rem;
+height: 5.73rem;
+background: transparent;
+border-radius:0.5rem 0.5rem 0 0;
+
 `;
 
-export const Bnt = styled.div`
-    display: flex;
-    width: 19rem;
-    height: 4rem;
-    font-family: 'Poppins', sans-serif;
-    background:#f05a28;
-    color: white;
-    cursor: pointer;
-    border-top: 5px solid #282828 ;
-    border-radius:0 0 100px 100px;
+export const TextTitle = styled.div`
 
+font-family: 'Open-Sans', Helvetica;
+font-size: 14px;
+width: 180px;
+height: 60px;
+text-align: left;
+background: transparent;
+margin-top:0.5rem ;
+margin-right: 1.3rem;
+color: #ffffff;
 
-    h1 {
-        font-size: 1.2rem;
-        margin-left: 1px;
-        
-    }
-  img{
-      
-      width: 2.8rem;
-      height: 4rem;
-      margin-left: 5rem;
-   
-  }
 `;
 
 export const Price = styled.div`
-display: flex;
-flex-direction:column;
-align-items: center;
+font-size: 20px;
 font-family: 'Poppins', sans-serif;
-background:white;
-color: black;
-font-size: 25px;
-width: 19rem;
-height: 2rem;
-outline: none; 
-font-weight:bold ;
+display: flex;
+flex-direction:row;
+align-items: center;
+border: 1px solid white;
+border-radius: 5px;
+width: 200px;
+justify-content:space-evenly;
+color: white;
 
+
+
+
+button{
+display: flex;
+flex-direction: column;
+align-items: center;
+cursor: pointer;
+transition: filter 2s;
+font-family: 'Poppins', sans-serif;
+background: #232d22;
+color: white;
+width: 134px;
+height:30px;
+
+}
 `;

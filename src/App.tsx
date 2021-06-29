@@ -21,10 +21,9 @@ export function App() {
   return (
 
     <CartProvider>
+
       <Header onOpenCartModal={handleOpenCartModal} />
-
       <CartTable />
-
       <ModalCart
         isOpen={isitemCartModalOpen}
         onRequestClose={handleCloseCartModal}

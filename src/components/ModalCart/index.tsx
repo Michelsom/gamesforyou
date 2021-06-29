@@ -1,5 +1,6 @@
 import Modal from 'react-modal';
 import { Container } from './styled';
+
 interface NewItemModalProps {
     isOpen: boolean;
     onRequestClose: () => void;

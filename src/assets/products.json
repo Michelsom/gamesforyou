@@ -1,65 +1,107 @@
 [
   {
-    "id": 312,
-    "name": "Super Mario Odyssey",
-    "price": 197.88,
-    "score": 100,
-    "image": "super-mario-odyssey.png"
+    "id": 7,
+    "name": "Shadow Of Mordor",
+    "price": 79.99,
+    "score": 50,
+    "image": "shadow-of-mordor.png"
   },
   {
-    "id": 201,
-    "name": "Call Of Duty Infinite Warfare",
-    "price": 49.99,
-    "score": 80,
-    "image": "call-of-duty-infinite-warfare.png"
+    "id": 10,
+    "name": "Metal Gear Solid V",
+    "price": 19.79,
+    "score": 299,
+    "image": "metal-gear-solid-v.png"
   },
   {
-    "id": 102,
-    "name": "The Witcher III Wild Hunt",
-    "price": 119.5,
-    "score": 250,
-    "image": "the-witcher-iii-wild-hunt.png"
-  },
-  {
-    "id": 99,
-    "name": "Call Of Duty WWII",
-    "price": 249.99,
-    "score": 205,
-    "image": "call-of-duty-wwii.png"
+    "id": 11,
+    "name": "Street Fighter V",
+    "price": 15.99,
+    "score": 127,
+    "image": "street-fighter.png"
   },
   {
     "id": 12,
-    "name": "Mortal Kombat XL",
-    "price": 69.99,
-    "score": 150,
-    "image": "mortal-kombat-xl.png"
+    "name": "Devil May Cry 5",
+    "price": 167.00,
+    "score": 178,
+    "image": "devil-may-cry5.png"
   },
   {
-    "id": 74,
-    "name": "Shards of Darkness",
-    "price": 71.94,
+    "id": 13,
+    "name": "GRIS",
+    "price": 27.99,
+    "score": 201,
+    "image": "gris.png"
+  },
+  {
+    "id": 14,
+    "name": "CARRION",
+    "price": 15.99,
+    "score": 293,
+    "image": "carrion.png"
+  },
+  {
+    "id": 15,
+    "name": "PES2021",
+    "price": 231.00,
+    "score": 155,
+    "image": "pes2021.png"
+  },
+  {
+    "id": 1,
+    "name": "PES2021",
+    "price": 79.60,
+    "score": 399,
+    "image": "doom-eternal.png"
+  },
+  {
+    "id": 16,
+    "name": "the Elder Scrolls V Skyrim",
+    "price": 42.47,
+    "score": 277,
+    "image": "skyrem-elder-scrolls.png"
+  },
+  {
+    "id": 17,
+    "name": "The Evil Within 2",
+    "price": 49.49,
+    "score": 100,
+    "image": "the-evil-within-2.png"
+  },
+  {
+    "id": 18,
+    "name": "Dishonored: Definetive Edition",
+    "price": 34.95,
+    "score": 160,
+    "image": "dishonored.png"
+  },
+  {
+    "id": 19,
+    "name": "One Piece",
+    "price": 200.00,
     "score": 400,
-    "image": "shards-of-darkness.png"
+    "image": "one-piece-pirate-warrios.png"
   },
   {
-    "id": 31,
-    "name": "Terra Média: Sombras de Mordor",
-    "price": 79.99,
-    "score": 50,
-    "image": "terra-media-sombras-de-mordor.png"
+    "id": 20,
+    "name": "Mortal Kombat 11",
+    "price": 103.99,
+    "score": 239,
+    "image": "mortal-kombat11.png"
   },
   {
-    "id": 420,
-    "name": "FIFA 18",
-    "price": 195.39,
-    "score": 325,
-    "image": "fifa-18.png"
+    "id": 21,
+    "name": "HITMAN 2",
+    "price": 39.99,
+    "score": 223,
+    "image": "hitman2.png"
   },
   {
-    "id": 501,
-    "name": "Horizon Zero Dawn",
-    "price": 115.8,
-    "score": 290,
-    "image": "horizon-zero-dawn.png"
+    "id": 22,
+    "name": "Injustice 2 - Legendary Edition",
+    "price": 29.99,
+    "score": 177,
+    "image": "injustice2.png"
   }
 ]

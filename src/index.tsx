@@ -1,36 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createServer, Model } from 'miragejs';
+import { createServer, Model, } from 'miragejs';
 import { App } from './App';
 import { CartProvider } from './CartContext';
+import dataproduct from './assets/products.json';
+
 
 createServer({
+
   models: {
     dataproduct: Model,
   },
+
   seeds(server) {
     server.db.loadData({
-      dataproduct: [
-        {
-          id: 2,
-          name: 'string',
-          price: '123',
-          score: '321',
-          image: 'coco'
-        }
-      ],
+      dataproducts: dataproduct
     })
   },
   routes() {
     this.namespace = 'api';
 
-    this.get('/dataproduct', () => {
+    this.get('/dataproducts', () => {
       return this.schema.all('dataproduct')
-    })
-    this.post('dataproduct', (schema, request) => {
-      const data = JSON.parse(request.requestBody)
-
-      return schema.create('dataproduct', data)
     })
   }
 })
